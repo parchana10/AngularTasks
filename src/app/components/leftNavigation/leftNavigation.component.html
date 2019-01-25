@@ -1,0 +1,11 @@
+<div class="nav-bar">
+<ul>
+    <li *ngFor="let item of leftNavData" routerLink={{item.route}}>
+        {{item.navText}}
+    </li>
+    <!-- Below nav added to check -->
+    <li routerLink="/manage-user">
+        Manage User
+    </li>
+</ul>
+</div>

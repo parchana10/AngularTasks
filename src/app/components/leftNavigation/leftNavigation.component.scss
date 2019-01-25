@@ -1,0 +1,18 @@
+.nav-bar {
+    ul {
+       padding: 0;
+       margin: 0;
+       li {
+          height: 45px;
+          line-height: 45px;
+          list-style-type: none;
+          font-size: 16px;
+          padding: 0 30px;
+          cursor: pointer;
+          border-bottom: 1px solid #ddd;
+          &:hover,.active {
+             background-color: #d4d4d4;
+          }
+       }
+    }
+ }

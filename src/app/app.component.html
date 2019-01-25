@@ -1,0 +1,22 @@
+<!-- The content below is only a placeholder and can be replaced.-->
+<div class="main-container">
+  <div>
+    <headerSection></headerSection>
+  </div>
+
+  <div class="middle-area">
+    <div class="left-container">
+      <leftNavigation [userDetails]="userDetails"></leftNavigation>
+    </div>
+
+    <div class="right-container">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+  <div>
+    <footerSection></footerSection>
+  </div>
+
+  
+</div>
